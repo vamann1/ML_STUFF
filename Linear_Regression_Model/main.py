@@ -11,12 +11,6 @@ x=lifesat[["GDP per capita (USD)"]].values
 y=lifesat[["Life satisfaction"]].values
 
 
-#Data visualisation
-lifesat.plot(kind='scatter', grid=True, x="GDP per capita (USD)", y="Life satisfaction")
-plt.axis([23_500, 62_500, 4, 9])
-plt.show()
-
-
 # Select a linear model
 model = LinearRegression()
 
